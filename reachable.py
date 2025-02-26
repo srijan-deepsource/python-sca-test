@@ -1,7 +1,7 @@
-import cryptography
+from cryptography.fernet import Fernet
 import django
 
-key = cryptography.hazmat.primitives.asymmetric.rsa.generate_private_key()
+f = Fernet(b'')
 django_path = django.__path__[0]
 print(django_path)
-print(key)
+print(f.encrypt(django_path.encode()))
