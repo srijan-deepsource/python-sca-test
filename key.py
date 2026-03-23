@@ -7,3 +7,6 @@ print(token)
 
 
 print("foo")
+
+
+print("bar")
