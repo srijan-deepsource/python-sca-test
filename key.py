@@ -6,7 +6,7 @@ token = f.encrypt(b"A really secret message. Not for prying eyes.")
 print(token)
 
 
-print("foo")
+print("fooo")
 
 
 print("hahaaa")
